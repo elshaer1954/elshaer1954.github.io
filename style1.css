@@ -19,12 +19,12 @@ a:hover {
 }
 
 .previous {
-  background-color: #04AA6D;
+  background-color: green;
   color: black;
 }
 
 .next {
-  background-color: red;
+  background-color: green;
   color: white;
 }
 

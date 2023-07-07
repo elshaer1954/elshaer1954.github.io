@@ -39,12 +39,12 @@ div.scrollmenu {
 .topnav a.active {background-color: #04AA6D;color: white;}
 .topnav .icon {display: none;} */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 260px) {
     .topnav a:not(:first-child) {display: none;}
     .topnav a.icon {float: right;display: block;}
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 260px) {
     .topnav.responsive {position: relative;}
     .topnav.responsive .icon {position: absolute;right: 0;top: 0;}
     .topnav.responsive a {float: none;display: block;text-align: left;}
@@ -57,7 +57,7 @@ div.scrollmenu {
 #tbl {font-size: 22px;border-collapse: collapse;margin: 0px;border: 1px solid black;background-color: lightgreen;margin-left: auto; margin-right: auto;}
 tr:hover {background-color: coral;}
 th {background-color: yellow;}    
-.pstyle1 {font-size: 25px;color: red;font-weight: bold}
+.pstyle1 {font-size: 22px;color: red;font-weight: bold}
 .footer {background-color: gray;color: red;padding: 2px;font-size: 100%;margin: 2px;}
     
    

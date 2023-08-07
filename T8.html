@@ -1,0 +1,264 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Multiplication Table 01</title>
+    <style>
+        body {
+            font-family: Arial;
+            margin: 0;
+            background-color: #f0fc03;
+            background-image: url("tb8.png");
+            background-repeat: no-repeat;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+        /*  Start Main Menu */
+        #menu1 {
+            background-color: #D9D9D9;
+        }
+
+            #menu1 ul {
+                background-color: #4484CE;
+            }
+
+            #menu1 li {
+                float: left;
+                padding: 5px 20px;
+                background-color:black;
+            }
+
+                #menu1 li:hover {
+                    background-color: #F9CF00;
+                }
+
+                    #menu1 li:hover a {
+                        color: #4484CE;
+                    }
+
+            #menu1 a {
+                color: #F9CF00;
+                font-size: 1.3em;
+            }
+
+            #menu1 .subitems {
+                background-color: #F9CF00;
+                width: 100%;
+                padding: 0px;
+                display: none;
+            }
+
+                #menu1 .subitems li {
+                    width: 100%;
+                    margin: 0px;
+                    padding: 0px;
+                    float: none;
+                    color: #4484CE;
+                }
+
+            #menu1 #about:hover .subitems {
+                display: block;
+            }
+
+        /* End Main Menu  */
+
+        img {
+            display:block;
+            vertical-align: middle;
+            margin-left:auto;
+            margin-right:auto;
+        }
+
+        /* Position the image container (needed to position the left and right arrows) */
+        .container {
+            position: relative;
+            
+        }
+
+        /* Hide the images by default */
+        .mySlides {
+            display:none;
+        }
+
+        /* Add a pointer when hovering over the thumbnail images */
+        .cursor {
+            cursor: pointer;
+        }
+
+        /* Next & previous buttons */
+        .prev,
+        .next {
+            cursor: pointer;
+            position: absolute;
+            top: 0%;
+            width: auto;
+            padding: 16px;
+            margin-top: 350px;
+            color: red;
+            font-weight: bold;
+            font-size: 30px;
+            border-radius: 0 3px 3px 0;
+            user-select: none;
+            -webkit-user-select: none;
+        }
+
+        /* Position the "next button" to the right */
+        .next {
+            right: 0;
+            border-radius: 3px 0 0 3px;
+        }
+
+            /* On hover, add a black background color with a little bit see-through */
+            .prev:hover,
+            .next:hover {
+                background-color: rgba(0, 0, 0, 0.8);
+            }
+
+        /* Number text (1/3 etc) */
+        .numbertext {
+            color: red;
+            font-size: 24px;
+            margin-left:600px;
+            padding: 8px 12px;
+            position: absolute;
+            top: 0;
+        }
+
+        /* Container for image text */
+        .caption-container {
+            text-align: center;
+            background-color: #85C53A;
+            padding: 2px 16px;
+            color: white;
+        }
+
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        
+        /* Add a transparency effect for thumnbail images */
+        .demo {
+            opacity: 0.6;
+        }
+
+            .active,
+            .demo:hover {
+                opacity: 1;
+            }
+    </style>
+</head>
+<body>
+    <div id="menu1">
+        <ul>
+            <li><a href="index.html">Table-1</a></li>
+            <li><a href="T2.html">Table-2</a></li>
+            <li><a href="T3.html">Table-3</a></li>
+            <li><a href="T4.html">Table-4</a></li>
+            <li><a href="T5.html">Table-5</a></li>
+            <li><a href="T6.html">Table-6</a></li>
+            <li><a href="T7.html">Table-7</a></li>
+            <li><a href="T8.html">Table-8</a></li>
+            <li><a href="T9.html">Table-9</a></li>
+            <li><a href="T10.html">Table-10</a></li>
+        </ul>
+    </div>
+   <hr />
+
+    <h2 style="text-align:center">Multiplication  Table/Table8</h2>
+    
+    <div class="container">
+        <div class="mySlides">
+            <div class="numbertext">1 / 11</div>
+            <img src="tb81.jpeg" style="width:400px">
+        </div>
+        <div class="mySlides">
+            <div class="numbertext">2 / 11</div>
+            <img src="tb82.jpeg" style="width: 400px">
+        </div>
+        <div class="mySlides">
+            <div class="numbertext">3 / 11</div>
+            <img src="tb83.jpeg" style="width: 400px">
+        </div>
+        <div class="mySlides">
+            <div class="numbertext">4 / 11</div>
+            <img src="tb84.jpeg" style="width: 400px">
+        </div>
+        <div class="mySlides">
+            <div class="numbertext">5 / 11</div>
+            <img src="tb85.jpeg" style="width: 400px">
+        </div>
+        <div class="mySlides">
+            <div class="numbertext">6 / 11</div>
+            <img src="tb86.jpeg" style="width: 400px">
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">7 / 11</div>
+            <img src="tb87.jpeg" style="width: 400px">
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">8 / 11</div>
+            <img src="tb88.jpeg" style="width: 400px">
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">9 / 11</div>
+            <img src="tb89.jpeg" style="width: 400px">
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">10 / 11</div>
+            <img src="tb810.jpeg" style="width: 400px">
+        </div>
+
+        <div class="mySlides">
+            <div class="numbertext">11 / 11</div>
+            <img src="g8.jpeg" style="width: 400px">
+        </div>
+    </div>
+
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+    
+    <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            let dots = document.getElementsByClassName("demo");
+            let captionText = document.getElementById("caption");
+            if (n > slides.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = slides.length }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+            captionText.innerHTML = dots[slideIndex - 1].alt;
+        }
+    </script>
+
+
+
+</body>
+</html>
